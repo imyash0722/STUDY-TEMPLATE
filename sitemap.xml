@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+      <url>
+        <loc>https://{GITHUB_USER}.github.io/{REPO_NAME}/</loc>
+      </url>
+      <url>
+        <loc>https://{GITHUB_USER}.github.io/{REPO_NAME}/TOPIC_BLUEPRINT/</loc>
+      </url>
+      <url>
+        <loc>https://{GITHUB_USER}.github.io/{REPO_NAME}/unit1/01_sample_topic/</loc>
+      </url>
+      <url>
+        <loc>https://{GITHUB_USER}.github.io/{REPO_NAME}/unit1/02_sample_topic/</loc>
+      </url>
+      <url>
+        <loc>https://{GITHUB_USER}.github.io/{REPO_NAME}/unit2/03_sample_topic/</loc>
+      </url>
+      <url>
+        <loc>https://{GITHUB_USER}.github.io/{REPO_NAME}/unit3/15_sample_memory_management/</loc>
+      </url>
+</urlset>
