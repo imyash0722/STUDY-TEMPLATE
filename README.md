@@ -7,6 +7,7 @@ A production-ready, high-yield static study website template powered by **[Zensi
 ## 🌟 Key Highlights & Design Decisions
 
 - **Clean Dark / Light Theme Toggle**: Single, sleek Sun ☀️ / Moon 🌙 toggle button positioned right next to the search bar. Configured to prevent the duplicate toggle icon bug seen in Image 1.
+- **Next & Previous Page Buttons**: Seamless footer navigation cards (`navigation.footer`) at the bottom of each page guiding learners sequentially through the syllabus with arrow icons and topic titles.
 - **Polished GitHub Header Link**: Configured with `repo_name: GitHub` so the top-right header displays the Git branch logo, "GitHub", and live repository star / fork counters (matching Image 4 & Image 3) rather than an ugly truncated repo name slug (`SEM3-CN-UE25CS243A-STU...` in Image 2).
 - **Identical Content Structure (Image 3 Standard)**: Every topic follows a rigorous, uniform pedagogical blueprint:
   - Source lecture and textbook chapter references

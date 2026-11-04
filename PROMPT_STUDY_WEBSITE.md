@@ -162,9 +162,17 @@ Given:
   ```
 - This renders the GitHub icon, the word "GitHub", and live star/fork statistics without displaying a truncated repo slug like `SEM3-CN-UE25CS243A-STU...` (Matches Image 4 & Image 3).
 
-### 3. Git Push Buffer for Large Repositories
+### 3. Next / Previous Page Navigation at the Bottom (Footer Navigation)
+- Ensure `navigation.footer` is included under `theme.features:` in `zensical.yml` / `mkdocs.yml`:
+  ```yaml
+  features:
+    - navigation.footer
+  ```
+  This automatically renders the **"Next"** and **"Previous"** topic navigation buttons at the bottom of each page.
+
+### 4. Git Push Buffer for Large Repositories
 - Run `git config http.postBuffer 524288000` to prevent RPC push failures when pushing repos containing slides or images.
 
-### 4. Build & Serve Commands
+### 5. Build & Serve Commands
 - Local live preview: `zensical serve` (or `~/.local/bin/zensical serve`)
 - Production build: `zensical build --config-file zensical.yml`

@@ -44,6 +44,7 @@ theme:
     - navigation.expand         # Auto-expand sections
     - navigation.top            # Back to top button
     - navigation.tracking       # URL updates with scroll position
+    - navigation.footer         # Next page and Previous page buttons at bottom of current page
     - search.highlight          # Highlight search terms in pages
     - search.share              # Shareable search links
     - content.code.copy         # Click-to-copy code blocks
