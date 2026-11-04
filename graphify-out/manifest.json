@@ -1,0 +1,63 @@
+{
+  ".github/workflows/deploy.yml": {
+    "mtime": 1793788960.86,
+    "seen": 1793789144.6622837,
+    "ast_hash": "0607cefa7f14677aa47f0894c7bd1ea5",
+    "semantic_hash": "0607cefa7f14677aa47f0894c7bd1ea5"
+  },
+  "mkdocs.yml": {
+    "mtime": 1793788831.42,
+    "seen": 1793789144.662356,
+    "ast_hash": "09571fb9642cc9d5ff1d437cf2093680",
+    "semantic_hash": "09571fb9642cc9d5ff1d437cf2093680"
+  },
+  "overrides/assets/javascripts/theme-toggle.js": {
+    "mtime": 1793788797.3,
+    "seen": 1793789144.662396,
+    "ast_hash": "9a2a03d6d4af612de498fa5f65f3313f",
+    "semantic_hash": "9a2a03d6d4af612de498fa5f65f3313f"
+  },
+  "scripts/build_and_deploy.sh": {
+    "mtime": 1793788973.6,
+    "seen": 1793789144.6624444,
+    "ast_hash": "0244cd8871808bbac1e00730f4246ca0",
+    "semantic_hash": "0244cd8871808bbac1e00730f4246ca0"
+  },
+  "scripts/setup_template.py": {
+    "mtime": 1793788941.82,
+    "seen": 1793789144.6624804,
+    "ast_hash": "e321958d1d8d1720baa64a3c007a5bf1",
+    "semantic_hash": "e321958d1d8d1720baa64a3c007a5bf1"
+  },
+  "site/assets/javascripts/bundle.77dd0ce9.min.js": {
+    "mtime": 1793789100.7,
+    "seen": 1793789144.6625142,
+    "ast_hash": "366d69fa8fdc78f68f32105ea7e4491f",
+    "semantic_hash": "366d69fa8fdc78f68f32105ea7e4491f"
+  },
+  "site/assets/javascripts/theme-toggle.js": {
+    "mtime": 1793789100.69,
+    "seen": 1793789144.6625595,
+    "ast_hash": "9a2a03d6d4af612de498fa5f65f3313f",
+    "semantic_hash": "9a2a03d6d4af612de498fa5f65f3313f"
+  },
+  "site/assets/javascripts/workers/search.c47bb847.min.js": {
+    "mtime": 1793789100.7,
+    "seen": 1793789144.6626024,
+    "ast_hash": "5e538ea91ed325909521963abae2d474",
+    "semantic_hash": "5e538ea91ed325909521963abae2d474"
+  },
+  "site/search.json": {
+    "mtime": 1793789100.7,
+    "seen": 1793789144.6626582,
+    "ast_hash": "bd22d0e51c9e18127433d26805f60acc",
+    "semantic_hash": "bd22d0e51c9e18127433d26805f60acc",
+    "ast_empty": true
+  },
+  "zensical.yml": {
+    "mtime": 1793788816.62,
+    "seen": 1793789144.662661,
+    "ast_hash": "09571fb9642cc9d5ff1d437cf2093680",
+    "semantic_hash": "09571fb9642cc9d5ff1d437cf2093680"
+  }
+}

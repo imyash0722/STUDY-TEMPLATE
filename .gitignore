@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+venv/
+ENV/
+
+# OS and Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Zensical / MkDocs Cache
+.cache/
+
+# Note on 'site/':
+# If you deploy via GitHub Actions (.github/workflows/deploy.yml), you can gitignore 'site/'.
+# If you deploy via manual 'git subtree push --prefix site origin gh-pages', 'site/' must be committed.
+# site/

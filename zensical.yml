@@ -1,0 +1,108 @@
+# ==============================================================================
+# Zensical Study Guide Website Configuration
+# Template designed for high-yield exam prep sites (Zensical / Material theme)
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# Site Identity & Placeholders (Replace these for your course)
+# ------------------------------------------------------------------------------
+site_name: "{SUBJECT} Exam Prep — {COURSE_CODE} ({UNITS})"
+site_description: "Complete study guide for {SUBJECT} ({COURSE_CODE}) covering {UNITS}"
+site_author: "{AUTHOR_NAME}"
+site_url: "https://{GITHUB_USER}.github.io/{REPO_NAME}/"
+
+# ------------------------------------------------------------------------------
+# GitHub Repository Link
+# Setting repo_name to 'GitHub' displays the GitHub logo + 'GitHub' + star/fork
+# stats instead of the long repo title slug (Matches Image 3 & Image 4 style).
+# ------------------------------------------------------------------------------
+repo_url: "https://github.com/{GITHUB_USER}/{REPO_NAME}"
+repo_name: GitHub
+
+# ------------------------------------------------------------------------------
+# Theme Configuration
+# ------------------------------------------------------------------------------
+theme:
+  name: zensical
+  custom_dir: overrides
+  language: en
+  palette:
+    # Light scheme (default)
+    - scheme: default
+      primary: indigo
+      accent: indigo
+    # Dark scheme (slate)
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+  # NOTE: Do NOT add `toggle:` under palette items above! The theme toggle is
+  # handled cleanly by `theme-toggle.js` to avoid the duplicated button bug (Image 1).
+
+  features:
+    - navigation.tabs           # Top horizontal unit tabs (Image 3)
+    - navigation.sections       # Collapsible sections
+    - navigation.expand         # Auto-expand sections
+    - navigation.top            # Back to top button
+    - navigation.tracking       # URL updates with scroll position
+    - search.highlight          # Highlight search terms in pages
+    - search.share              # Shareable search links
+    - content.code.copy         # Click-to-copy code blocks
+    - content.code.annotate     # Code block annotations
+    - content.tabs.link         # Link tabbed content across pages
+    - toc.follow                # Auto-scrolling right table of contents
+    - color.mode                # Palette mode switching support
+
+# ------------------------------------------------------------------------------
+# Custom Assets
+# ------------------------------------------------------------------------------
+extra_javascript:
+  - assets/javascripts/theme-toggle.js
+
+# ------------------------------------------------------------------------------
+# Markdown Extensions
+# ------------------------------------------------------------------------------
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+  - tables
+  - attr_list
+  - md_in_html
+  - footnotes
+
+# ------------------------------------------------------------------------------
+# Navigation Structure
+# Organize topics into Units (Tabs) and numbered markdown files
+# ------------------------------------------------------------------------------
+nav:
+  - Home: index.md
+  - "Unit 1: {UNIT_1_TITLE}":
+      - "Topic 01: Introduction & Architecture": unit1/01_sample_topic.md
+      - "Topic 02: Process Concepts & Lifecycle": unit1/02_sample_topic.md
+  - "Unit 2: {UNIT_2_TITLE}":
+      - "Topic 03: Synchronization & IPC": unit2/03_sample_topic.md
+  - "Unit 3: {UNIT_3_TITLE}":
+      - "Topic 15: Main Memory Management": unit3/15_sample_memory_management.md
+
+# ------------------------------------------------------------------------------
+# Footer & Social Links
+# ------------------------------------------------------------------------------
+copyright: "{SUBJECT} ({COURSE_CODE}) Study Guide | Based on {TEXTBOOKS}"
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/{GITHUB_USER}
